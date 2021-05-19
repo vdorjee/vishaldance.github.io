@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMISSION Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+</head>
+<body>
+    <section class="co-header2">
+        <nav>
+            <a href="index.html"> <img src="image/logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hidemenu()"></i> 
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="sign.html">ADMISSION</a></li>
+                        <li><a href="studio.html">STUDIO</a></li>
+                        <li><a href="contat.html">CONTACT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="other.html">OTHER</a></li>
+                    </ul>
+                </div> 
+                <i class="fa fa-bars"  onclick="showmenu()"></i>           
+        </nav>
+       <h1>Admission From</h1>
+    </section>
+    <section>
+        <div class="sign-up-form">
+            <h1> Admission</h1>
+            <form>
+                <input type="email" class="input-box" placeholder="Your Email">
+                <input type="password" class="input-box" placeholder="Your Password">
+                <p>i agree to the terms of services</p>
+            </form>
+        </div>
+      
+
+    </section>
+      <!------footer-->
+      <section class="footer">
+        <h4>About Us</h4>
+        <p> Get Expert Advice and Curated Content on Top10Quest.com.<br>
+            Find in Seconds. Find All Info You Want. </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+       <p>Made with <i class="fa fa-heart-o"></i>by Easy Tutorials</p>
+
+
+
+    </section>
+
+
+<!-----------javascript for toggle menu----->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+
+</script>
+
+
+</body>
+</html>

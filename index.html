@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dorjee electronic website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="image/logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hidemenu()"></i> 
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="sign.html">ADMISSION</a></li>
+                        <li><a href="studio.html">STUDIO</a></li>
+                        <li><a href="contat.html">CONTACT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="other.html">OTHER</a></li>
+                    </ul>
+                </div> 
+                <i class="fa fa-bars"  onclick="showmenu()"></i>           
+        </nav>
+        <div class="text-box">
+            <h1>Welcome To<br> Hip Hop Dance House</h1>
+            <p>MAKE YOUR PASSION INTO A PROFESSION.
+           
+            </p>
+        <a href="" class="hero-btn">Sign up</a>
+        </div>
+
+    </section>
+    <!------programs------>
+    <section class="program">
+            <h1>PROGRAMS.</h1>  
+            
+            <div class="row">
+                <div class="colume-row">
+                    <h3>FREESTYLE</h3>
+                    <p>
+                        Freestyle is a way of dancing
+                        in which the dancer improvises
+                        his/her moves on the spot, as he
+                        dances, instead of having them planned
+                        beforehand (ie choreography).
+                    </p>
+                    <a href="" target="_blank" class="hero-btn">LEARN MORE></a>
+            
+                </div> 
+                <div class="colume-row">
+                    <h3>HIP HOP</h3>
+                    <p>
+                        Hip-hop dance is a fusion dance
+                        genre that incorporates elements
+                        of popping, locking, breaking, jazz,
+                        ballet, tap dancing                     
+                    </p>
+                    <a href="" target="_blank" class="hero-btn">LEARN MORE></a>
+                </div> 
+                <div class="colume-row">
+                    <h3>CONTEMPORARY</h3>
+                    <p>
+                        Contemporary dancers strive to connect
+                        the mind and the body through fluid 
+                        dance movements.Although originally
+                        informed by and borrowing from classical,
+                        modern, and jazz styles.
+                        
+                    </p>
+                    <a href="" target="_blank" class="hero-btn">LEARN MORE></a>
+                </div>            
+            </div>
+    </section>
+
+
+    <!------studio-->
+    <section class="STUDIO">
+        <h1>STUDIO</h1>
+        <p> our class is about 15x 17m.</p>
+        <div class="row">
+            <div class="studio-col">
+                <img src="image/Studio1.jpg">
+                <h3>first look</h3>
+            </div>
+            <div class="studio-col">
+                <img src="image/class.jpg">
+                <h3>second look</h3>
+               
+            </div>
+            <div class="studio-col">
+                <img src="image/style4.jpg">
+                <h3>third look</h3>
+            </div>
+
+
+        </div>
+
+    
+    </section>
+    <!-------testmonial----->
+    <section class="testimonials">
+        <h1>WHAT OUR STUDENT SAYS</h1>
+        <p>Get Expert Advice and Curated Content on</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="image/test.jpg">
+                <div>
+                    <p>Contemporary dancers strive to connect
+                        the mind and the body through fluid .</p>
+                        <h3>Rohit Kumar</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="image/test2.jpg">
+                <div>
+                    <p>Contemporary dancers strive to connect
+                        the mind and the body through fluid .</p>
+                        <h3>Priya Das</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+   
+
+
+
+
+    <!------------contacts------->
+    
+    </section>
+    
+    <!------contact-->
+    <section class="cta">
+        <h1>To know more about the class contact us  <br>Top10Quest          
+        </h1>
+        <a href="contat.html" class="hero-btn">CONTACT US></a>
+    </section>
+    <!------footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p> Get Expert Advice and Curated Content on Top10Quest.com.<br>
+            Find in Seconds. Find All Info You Want. </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+       <p>Made with <i class="fa fa-heart-o"></i>by Easy Tutorials</p>
+
+
+
+    </section>
+
+
+<!-----------javascript for toggle menu----->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+
+</script>
+
+
+</body>
+</html>
